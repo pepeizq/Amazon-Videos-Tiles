@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddTile.Text" xml:space="preserve">
+    <value>Añadir Tile</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="MoreThings" xml:space="preserve">
+    <value>Más Cosas</value>
+  </data>
+  <data name="Contact.Text" xml:space="preserve">
+    <value>Contactar</value>
+  </data>
+  <data name="MissingGames" xml:space="preserve">
+    <value>Juegos que Faltan</value>
+  </data>
+  <data name="Activated" xml:space="preserve">
+    <value>Activado</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Negro</value>
+  </data>
+  <data name="BottomLeft" xml:space="preserve">
+    <value>Abajo Izquierda</value>
+  </data>
+  <data name="BottomRight" xml:space="preserve">
+    <value>Abajo Derecha</value>
+  </data>
+  <data name="BuyApp.Text" xml:space="preserve">
+    <value>Comprar App</value>
+  </data>
+  <data name="ChangeImageComputer.Text" xml:space="preserve">
+    <value>Cambia la imagen usando un fichero de tu ordenador (formatos aceptados: .png, .jpg, .jpeg):</value>
+  </data>
+  <data name="ChangeImageComputerSearch.Text" xml:space="preserve">
+    <value>Buscar la imagen</value>
+  </data>
+  <data name="ChangeImageLink.Text" xml:space="preserve">
+    <value>Cambia la imagen usando un enlace directo a una imagen:</value>
+  </data>
+  <data name="ChangeImageLinkInfo" xml:space="preserve">
+    <value>Pon el enlace aquí</value>
+  </data>
+  <data name="ConfigCache.Text" xml:space="preserve">
+    <value>Caché</value>
+  </data>
+  <data name="ConfigCache2.Text" xml:space="preserve">
+    <value>Si activas el modo caché, la aplicación descargara todas las imágenes necesarias para generar Tiles y podrá cargar mejor el listado si tienes cientos de juegos.</value>
+  </data>
+  <data name="ConfigCacheClean.Text" xml:space="preserve">
+    <value>Limpiar Caché</value>
+  </data>
+  <data name="ConfigCacheMessage.Text" xml:space="preserve">
+    <value>Si limpias la caché, automáticamente volverá a descargar las imágenes de los juegos.</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Desactivado</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Juegos</value>
+  </data>
+  <data name="ImageAdjustment.Text" xml:space="preserve">
+    <value>Ajuste de imagen al espacio de la Tile:</value>
+  </data>
+  <data name="ImageAdjustmentFill" xml:space="preserve">
+    <value>Rellenar</value>
+  </data>
+  <data name="ImageAdjustmentNone" xml:space="preserve">
+    <value>Ninguno</value>
+  </data>
+  <data name="ImageAdjustmentUniform" xml:space="preserve">
+    <value>Uniforme</value>
+  </data>
+  <data name="ImageAdjustmentUniformFill" xml:space="preserve">
+    <value>Uniforme y Rellenar</value>
+  </data>
+  <data name="ImageBackground.Text" xml:space="preserve">
+    <value>Cambia el color de fondo de la Tile:</value>
+  </data>
+  <data name="ImageCorner.Text" xml:space="preserve">
+    <value>Ajustar el redondeo en las esquinas de la imagen:</value>
+  </data>
+  <data name="ImageIcon.Text" xml:space="preserve">
+    <value>Añadir un icono de la plataforma a la Tile:</value>
+  </data>
+  <data name="ImageIconPosition.Text" xml:space="preserve">
+    <value>Posición del icono:</value>
+  </data>
+  <data name="ImageMargin.Text" xml:space="preserve">
+    <value>Ajustar el margen entre la imagen y el espacio de la Tile:</value>
+  </data>
+  <data name="ImageTitle.Text" xml:space="preserve">
+    <value>Mostrar el título del juego abajo a la izquierda del espacio de la Tile (no se muestra en la vista previa):</value>
+  </data>
+  <data name="ImageTitleColor.Text" xml:space="preserve">
+    <value>Elige el color del título:</value>
+  </data>
+  <data name="ImageTransparent.Text" xml:space="preserve">
+    <value>Fondo de la Tile transparente:</value>
+  </data>
+  <data name="MissingGames1.Text" xml:space="preserve">
+    <value>Por esta razón necesito vuestra ayuda si veis si falta algún juego o si algún juego ejecuta la versión de una región distinta a la vuestra.</value>
+  </data>
+  <data name="MissingGames2.Text" xml:space="preserve">
+    <value>Antes de contactar conmigo necesito que hagáis un acceso directo del juego en el escritorio y me indicáis la información de la pantalla de la derecha.</value>
+  </data>
+  <data name="MissingGames3.Text" xml:space="preserve">
+    <value>Y también necesito saber el país donde estáis, hay juegos que solo se pueden ejecutar desde determinados países.</value>
+  </data>
+  <data name="MoreThingsContact" xml:space="preserve">
+    <value>Contactar</value>
+  </data>
+  <data name="MoreThingsHelpTranslate" xml:space="preserve">
+    <value>Ayuda a Traducir</value>
+  </data>
+  <data name="MoreThingsHelpTranslateDescription" xml:space="preserve">
+    <value>Si la aplicación no está en tu idioma, puedes ayudarme a traducirla a tu idioma usando la plataforma Poeditor.</value>
+  </data>
+  <data name="MoreThingsMyTwitterDescription" xml:space="preserve">
+    <value>En mi cuenta de Twitter iré comentando los avances que vaya realizando en mis aplicaciones y juegos, pero también pondré cosas relacionadas con plataformas de videojuegos de PC.</value>
+  </data>
+  <data name="MoreThingsOpen" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="MoreThingspepeizqappsDescription" xml:space="preserve">
+    <value>Si quieres contactar conmigo o ver otras aplicaciones y juegos que he creado, puedes visitar mi web.</value>
+  </data>
+  <data name="MoreThingspepeizqdealsDescription" xml:space="preserve">
+    <value>También he creado una web de ofertas de videojuegos para PC, os animo a visitar la web.</value>
+  </data>
+  <data name="MoreThingsRate" xml:space="preserve">
+    <value>Calificar</value>
+  </data>
+  <data name="MoreThingsRateApp" xml:space="preserve">
+    <value>Calificar la Aplicación</value>
+  </data>
+  <data name="MoreThingsRateAppDescription" xml:space="preserve">
+    <value>Puedes calificar la aplicación con la valoración que tu creas que merezca.</value>
+  </data>
+  <data name="MoreThingsRateAppThanks" xml:space="preserve">
+    <value>Gracias por calificar la app</value>
+  </data>
+  <data name="MoreThingsSourceCode" xml:space="preserve">
+    <value>Código Fuente</value>
+  </data>
+  <data name="MoreThingsSourceCodeDescription" xml:space="preserve">
+    <value>Puedes ver el código fuente de la aplicación en Github, si tienes cuenta puedes ponerle una estrella.</value>
+  </data>
+  <data name="MoreThingsVideo" xml:space="preserve">
+    <value>Vídeo en Youtube</value>
+  </data>
+  <data name="MoreThingsVideoDescription" xml:space="preserve">
+    <value>Por si tienes dudas de como usar la aplicación, he subido un video a Youtube.</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Personalization.Text" xml:space="preserve">
+    <value>Personalización</value>
+  </data>
+  <data name="TopLeft" xml:space="preserve">
+    <value>Arriba Izquierda</value>
+  </data>
+  <data name="TopRight" xml:space="preserve">
+    <value>Arriba Derecha</value>
+  </data>
+  <data name="TrialMessage.Text" xml:space="preserve">
+    <value>Estás usando la versión de prueba de la aplicación, solo puedes tener activa una Tile.</value>
+  </data>
+  <data name="Ubi_MissingGames.Text" xml:space="preserve">
+    <value>Por restricciones en la API de Ubisoft Connect, debo integrar sus juegos manualmente en la app.</value>
+  </data>
+  <data name="Ubi_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de tus juegos de Ubisoft Connect en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Ubi_StoreTags" xml:space="preserve">
+    <value>Ubisoft,Uplay,Connect,Assassin's Creed,Far Cry,Watch Dogs,Anno,The Division,</value>
+  </data>
+  <data name="White" xml:space="preserve">
+    <value>Blanco</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="SearchGame" xml:space="preserve">
+    <value>Busca un juego</value>
+  </data>
+  <data name="StoreVideo" xml:space="preserve">
+    <value>Como usar la app</value>
+  </data>
+  <data name="ConfigFolderMessage.Text" xml:space="preserve">
+    <value>Antes de poder generar las Tiles disponibles de tus juegos, la aplicación necesita configurar las siguientes cosas:</value>
+  </data>
+  <data name="ConfigNoGamesDetected.Text" xml:space="preserve">
+    <value>No se han detectado juegos, debes configurar la aplicación antes de poder añadir Tiles.</value>
+  </data>
+  <data name="ConfigOpen.Text" xml:space="preserve">
+    <value>Abrir Configuración</value>
+  </data>
+  <data name="ConfigSearchFolder.Text" xml:space="preserve">
+    <value>Buscar Carpeta</value>
+  </data>
+  <data name="ConfigShowImage.Text" xml:space="preserve">
+    <value>Enseñar imagen con la opción</value>
+  </data>
+  <data name="Twitch_ConfigFolderPath.Text" xml:space="preserve">
+    <value>Seleccionar el fichero GameProductInfo.sqlite en la carpeta: C:\Usuarios\[Tu Usuario]\AppData\Roaming\Twitch\Games\Sql</value>
+  </data>
+  <data name="Twitch_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de tus juegos del launcher de Twitch en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Twitch_StoreTags" xml:space="preserve">
+    <value>Twitch,Amazon Prime,</value>
+  </data>
+  <data name="ConfigOpenOption.Text" xml:space="preserve">
+    <value>Abrir opción</value>
+  </data>
+  <data name="Amazon_ConfigFolderPath.Text" xml:space="preserve">
+    <value>Seleccionar el fichero GameProductInfo.sqlite en la carpeta: C:\Usuarios\[Tu Usuario]\AppData\Local\Amazon Games\Data\Games\Sql</value>
+  </data>
+  <data name="Amazon_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de tus juegos del launcher de Amazon Games en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Amazon_StoreTags" xml:space="preserve">
+    <value>Amazon,Amazon Prime,</value>
+  </data>
+  <data name="Amazon_Title" xml:space="preserve">
+    <value>Tiles para los juegos de Amazon</value>
+  </data>
+  <data name="Bethesda_MissingGames.Text" xml:space="preserve">
+    <value>Por restricciones en la API de Bethesda, debo integrar sus juegos manualmente en la app.</value>
+  </data>
+  <data name="Bethesda_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de tus juegos del launcher de Bethesda en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Bethesda_StoreTags" xml:space="preserve">
+    <value>Bethesda,Fallout,Elder Scrolls,Wolfenstein,Doom,Dishonored,Rage</value>
+  </data>
+  <data name="Bethesda_Title" xml:space="preserve">
+    <value>Tiles para los juegos de Bethesda</value>
+  </data>
+  <data name="Blizzard_Title" xml:space="preserve">
+    <value>Tiles para los juegos de Blizzard Battle.net</value>
+  </data>
+  <data name="ConfigFileMessage.Text" xml:space="preserve">
+    <value>Desoculta los ficheros y carpetas, esta opción se encuentra en Opciones del Exploradores de Archivos (usar el buscador para encontrar la opción).</value>
+  </data>
+  <data name="ConfigSearchFile.Text" xml:space="preserve">
+    <value>Buscar Fichero</value>
+  </data>
+  <data name="MoreTiles" xml:space="preserve">
+    <value>Más Tiles</value>
+  </data>
+  <data name="MoreTilesError" xml:space="preserve">
+    <value>No se ha podido cargar los datos</value>
+  </data>
+  <data name="OpenWeb" xml:space="preserve">
+    <value>Abrir Web</value>
+  </data>
+  <data name="Twitch_Title" xml:space="preserve">
+    <value>Tiles para los juegos de Twitch</value>
+  </data>
+  <data name="Ubi_Title" xml:space="preserve">
+    <value>Tiles para los juegos de Ubisoft</value>
+  </data>
+  <data name="Blizzard_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de tus juegos del launcher de Blizzard Battle.net en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Blizzard_StoreTags" xml:space="preserve">
+    <value>Blizzard,Battle.net,Diablo,Starcraft,Warcraft,Overwatch,Call of Duty,</value>
+  </data>
+  <data name="Discord_ConfigImport.Text" xml:space="preserve">
+    <value>Selecciona de donde vas a importar los juegos:</value>
+  </data>
+  <data name="Discord_ConfigImport1" xml:space="preserve">
+    <value>Juegos instalados en Discord</value>
+  </data>
+  <data name="Discord_ConfigImport2" xml:space="preserve">
+    <value>Juegos importados de Steam</value>
+  </data>
+  <data name="Discord_ConfigMessage1.Text" xml:space="preserve">
+    <value>Selecciona la carpeta donde tengas instalados tus juegos de Discord:</value>
+  </data>
+  <data name="Discord_ConfigMessage2.Text" xml:space="preserve">
+    <value>Seleciona el fichero con extensión .log en: C:\Users\[your user]\AppData\Roaming\discord\Local Storage\leveldb</value>
+  </data>
+  <data name="Discord_Message.Text" xml:space="preserve">
+    <value>Si tus juegos son de Steam o de otra plataforma ajena a Discord, te recomiendo adquirir la app correspondiente para tus juegos.</value>
+  </data>
+  <data name="Discord_OpenTiles.Text" xml:space="preserve">
+    <value>Mostrar Apps</value>
+  </data>
+  <data name="Discord_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de tus juegos de la app de Discord en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Discord_StoreTags" xml:space="preserve">
+    <value>Discord,Steam</value>
+  </data>
+  <data name="Discord_Title" xml:space="preserve">
+    <value>Tiles para los juegos de Discord</value>
+  </data>
+  <data name="Gog_ConfigMessage.Text" xml:space="preserve">
+    <value>Selecciona la carpeta: C:\ProgramData\GOG.com\Galaxy\webcache\[Tu ID de Usuario]\gog</value>
+  </data>
+  <data name="Gog_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de tus juegos de GOG Galaxy en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Gog_StoreTags" xml:space="preserve">
+    <value>Gog,Galaxy,Witcher,Gwent,Cyberpunk</value>
+  </data>
+  <data name="Gog_Title" xml:space="preserve">
+    <value>Tiles para los juegos de GOG</value>
+  </data>
+  <data name="MoreTilesOpen" xml:space="preserve">
+    <value>Abrir App en la Tienda</value>
+  </data>
+  <data name="Origin_ConfigMessage.Text" xml:space="preserve">
+    <value>Selecciona la carpeta: C:\ProgramData\Origin\LocalContent</value>
+  </data>
+  <data name="Origin_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de tus juegos de Origin en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Origin_StoreTags" xml:space="preserve">
+    <value>Origin,EA Play,Apex,Mass Effect,Battlefield,Star Wars,FIFA</value>
+  </data>
+  <data name="Origin_Title" xml:space="preserve">
+    <value>Tiles para los juegos de Origin</value>
+  </data>
+  <data name="ConfigDeleteFolders.Text" xml:space="preserve">
+    <value>Borrar Carpetas</value>
+  </data>
+  <data name="Steam_AccountExample" xml:space="preserve">
+    <value>Ejemplo: https://steamcommunity.com/id/pepeizq/</value>
+  </data>
+  <data name="Steam_ConfigAccount.Text" xml:space="preserve">
+    <value>Antes de añadir tu cuenta debes permitir leer la información de tus juegos.</value>
+  </data>
+  <data name="Steam_ConfigAccount2.Text" xml:space="preserve">
+    <value>Añade el enlace a tu cuenta de Steam Community:</value>
+  </data>
+  <data name="Steam_ConfigFolderMessage.Text" xml:space="preserve">
+    <value>Selecciona las carpetas donde tengas instalados tus juegos, ejemplo: C:\Steam\steamapps</value>
+  </data>
+  <data name="Steam_ConfigImport1" xml:space="preserve">
+    <value>Juegos Instalados</value>
+  </data>
+  <data name="Steam_ConfigImport2" xml:space="preserve">
+    <value>Juegos en tu Cuenta</value>
+  </data>
+  <data name="Steam_ConfigMessage.Text" xml:space="preserve">
+    <value>La aplicación permite cargar tus juegos de Steam que estén instalados o directamente todos los juegos que tengas en tu cuenta (si tienes cientos o miles de juegos recomiendo elegir los juegos instalados).</value>
+  </data>
+  <data name="Steam_ConfigModeMessage.Text" xml:space="preserve">
+    <value>Selecciona el modo:</value>
+  </data>
+  <data name="Steam_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de tus juegos de Steam en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Steam_StoreTags" xml:space="preserve">
+    <value>Steam,Valve</value>
+  </data>
+  <data name="Steam_Title" xml:space="preserve">
+    <value>Tiles para los juegos de Steam</value>
+  </data>
+  <data name="Epic_ConfigFolderMessage.Text" xml:space="preserve">
+    <value>Selecciona la carpeta: C:\ProgramData\Epic</value>
+  </data>
+  <data name="Epic_ConfigImport1" xml:space="preserve">
+    <value>Juegos Instalados</value>
+  </data>
+  <data name="Epic_ConfigImport2" xml:space="preserve">
+    <value>Todos los Juegos</value>
+  </data>
+  <data name="Epic_ConfigMessage.Text" xml:space="preserve">
+    <value>La aplicación permite cargar tus juegos de Epic Games que estén instalados o directamente seleccionar cualquier juego en la plataforma (en este caso deberás tener el juego para poder ejecutarlo).</value>
+  </data>
+  <data name="Epic_ConfigModeMessage.Text" xml:space="preserve">
+    <value>Selecciona el modo:</value>
+  </data>
+  <data name="Epic_MissingGames.Text" xml:space="preserve">
+    <value>Por restricciones en la API de Epic Games, debo integrar sus juegos manualmente en la app.</value>
+  </data>
+  <data name="Epic_SelectGame" xml:space="preserve">
+    <value>Selecciona un juego (debes tener el juego en Epic Games)</value>
+  </data>
+  <data name="Epic_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de tus juegos del launcher de Epic Games en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Epic_StoreTags" xml:space="preserve">
+    <value>Epic Games,Fortnite,World War Z,Rocket League,</value>
+  </data>
+  <data name="Epic_Title" xml:space="preserve">
+    <value>Tiles para los juegos de Epic Games</value>
+  </data>
+  <data name="SelectGame" xml:space="preserve">
+    <value>Selecciona un juego</value>
+  </data>
+  <data name="Ubi_SelectGame" xml:space="preserve">
+    <value>Selecciona un juego (debes tener el juego en Ubisoft Connect)</value>
+  </data>
+  <data name="Bethesda_SelectGame" xml:space="preserve">
+    <value>Selecciona un juego (debes tener el juego en el launcher de Bethesda)</value>
+  </data>
+  <data name="Blizzard_SelectGame" xml:space="preserve">
+    <value>Selecciona un juego (debes tener el juego en Blizzard Battle.net)</value>
+  </data>
+  <data name="ImageTitleText.Text" xml:space="preserve">
+    <value>Modifica el título:</value>
+  </data>
+  <data name="App" xml:space="preserve">
+    <value>Aplicación</value>
+  </data>
+  <data name="AppBlack.Text" xml:space="preserve">
+    <value>Negro</value>
+  </data>
+  <data name="AppSelectMode.Text" xml:space="preserve">
+    <value>Selecciona un modo:</value>
+  </data>
+  <data name="AppWhite.Text" xml:space="preserve">
+    <value>Blanco</value>
+  </data>
+  <data name="Steam_AppMessage" xml:space="preserve">
+    <value>Ademas de añadir Tiles para tus juegos de Steam, también puedes añadir una Tile para iniciar solamente Steam.</value>
+  </data>
+  <data name="Spotify_SearchAlbum.Text" xml:space="preserve">
+    <value>Buscar Álbum</value>
+  </data>
+  <data name="Spotify_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de tus álbumes y playlists de Spotify en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Spotify_StoreTags" xml:space="preserve">
+    <value>Spotify,Música,Playlists</value>
+  </data>
+  <data name="Spotify_Title" xml:space="preserve">
+    <value>Tiles para los álbumes y playlists de Spotify</value>
+  </data>
+  <data name="Webs" xml:space="preserve">
+    <value>Páginas Web</value>
+  </data>
+  <data name="Webs_Generate.Text" xml:space="preserve">
+    <value>Generar</value>
+  </data>
+  <data name="Webs_Message.Text" xml:space="preserve">
+    <value>Introduce el enlace de la página web y clickea generar:</value>
+  </data>
+  <data name="Webs_Title" xml:space="preserve">
+    <value>Tiles para Webs</value>
+  </data>
+  <data name="Webs_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de las páginas web en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Webs_StoreTags" xml:space="preserve">
+    <value>Edge,Firefox,Opera,Chrome</value>
+  </data>
+  <data name="Spotify_AlbumsPlaylists" xml:space="preserve">
+    <value>Álbumes y Playlists</value>
+  </data>
+  <data name="Spotify_SearchAlbumMessage.Text" xml:space="preserve">
+    <value>Introduce el nombre del álbum o del artista, y clickea buscar:</value>
+  </data>
+  <data name="Netflix_SearchMessage.Text" xml:space="preserve">
+    <value>Introduce el título de la película o serie:</value>
+  </data>
+  <data name="Netflix_SearchVideo.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="Netflix_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de las películas y series de Netflix en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="Netflix_StoreMessage1" xml:space="preserve">
+    <value>Es compatible con la app de Netflix para Windows 10 y con cualquier navegador web que soporte Netflix.</value>
+  </data>
+  <data name="Netflix_StoreTags" xml:space="preserve">
+    <value>Netflix,Películas,Series</value>
+  </data>
+  <data name="Netflix_Title" xml:space="preserve">
+    <value>Tiles para las películas y series de Netflix</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="Back.Text" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+  <data name="Spotify_Albums.Text" xml:space="preserve">
+    <value>Álbumes</value>
+  </data>
+  <data name="Spotify_Playlists.Text" xml:space="preserve">
+    <value>Playlists</value>
+  </data>
+  <data name="Spotify_SearchPlaylists.Text" xml:space="preserve">
+    <value>Buscar Playlists</value>
+  </data>
+  <data name="Spotify_SearchPlaylistsMessage.Text" xml:space="preserve">
+    <value>Introduce tu id de usuario:</value>
+  </data>
+  <data name="Spotify_UserID.Text" xml:space="preserve">
+    <value>Cómo averiguar tu id de usuario</value>
+  </data>
+  <data name="Albums" xml:space="preserve">
+    <value>Álbumes</value>
+  </data>
+  <data name="ConfigFileCleaning.Text" xml:space="preserve">
+    <value>Limpieza de Archivos</value>
+  </data>
+  <data name="ConfigFileCleaning2.Text" xml:space="preserve">
+    <value>Puedes borrar todos los ficheros generados por la aplicación, pero una vez borrados se reiniciará la aplicación (esta opción no afecta a la Caché).</value>
+  </data>
+  <data name="ConfigFileCleaningClean.Text" xml:space="preserve">
+    <value>Borrar Archivos</value>
+  </data>
+  <data name="Netflix_SearchMessage2.Text" xml:space="preserve">
+    <value>Introduce el enlace de la película o serie:</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="Url.Text" xml:space="preserve">
+    <value>Enlace</value>
+  </data>
+  <data name="AmazonVideos_Title" xml:space="preserve">
+    <value>Tiles para las películas y series de Amazon</value>
+  </data>
+  <data name="AmazonVideos_StoreDescription" xml:space="preserve">
+    <value>Añade Tiles de las películas y series de Amazon en el Menú Inicio de Windows 10.</value>
+  </data>
+  <data name="AmazonVideos_StoreMessage1" xml:space="preserve">
+    <value>Es compatible con la app de Amazon para Windows 10 y con cualquier navegador web que soporte Amazon.</value>
+  </data>
+  <data name="AmazonVideos_StoreTags" xml:space="preserve">
+    <value>Amazon,Amazon Prime,Películas,Series,Video</value>
+  </data>
+</root>
