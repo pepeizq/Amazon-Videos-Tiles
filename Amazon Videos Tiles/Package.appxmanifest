@@ -9,12 +9,12 @@
   <Identity
     Name="5078pepeizq.TilesforAmazonMoviesandSeries"
     Publisher="CN=C91088FC-231C-4E13-86D1-5F9658173DA7"
-    Version="1.0.5.0" />
+    Version="1.0.6.0" />
 
   <mp:PhoneIdentity PhoneProductId="f7c2deac-4723-4570-a2c0-7fe6102706f6" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Tiles for Amazon Movies and Series</DisplayName>
+    <DisplayName>pepeizq&apos;s Light Tiles for Movies and Series</DisplayName>
     <PublisherDisplayName>pepeizq&apos;s apps</PublisherDisplayName>
     <Logo>Assets\Logos\StoreLogo.png</Logo>
   </Properties>
@@ -32,7 +32,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="Amazon_Videos_Tiles.App">
       <uap:VisualElements
-        DisplayName="ms-resource:AmazonVideos_Title"
+        DisplayName="pepeizq&apos;s Light Tiles for Movies and Series"
         Square150x150Logo="Assets\Logos\Square150x150Logo.png"
         Square44x44Logo="Assets\Logos\Square44x44Logo.png"
         Description="https://pepeizqapps.com/"
